@@ -31,6 +31,19 @@ Given an undirected graph `G = (V, E)` and an integer `k`, decide whether there 
 
 For this decision problem, report whether the greedy cover has at most `k` vertices, its cover size, and its runtime. The exact solver provides the correctness reference.
 
+## Setup
+
+Requires Python 3.10 or newer.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python -m pytest                 # run the tests
+```
+
+Run every command from the repository root, so that `src` can be imported.
+
 ## Status
 
 Repository structure is set up. Solver code, handmade instances, experiments, and final deliverables will be added next.

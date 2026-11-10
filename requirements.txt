@@ -1,3 +1,8 @@
-networkx
-matplotlib
-pandas
+# Core
+networkx>=3.4
+# Analysis and plots (notebooks/main_analysis.ipynb)
+pandas>=2.2
+matplotlib>=3.9
+jupyter>=1.0
+# Tests (tests/test_against_handmade.py)
+pytest>=8.0
